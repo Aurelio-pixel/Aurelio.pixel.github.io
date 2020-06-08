@@ -1,0 +1,298 @@
+body {
+    background-image: url(../Image/fotoBack.jpg);
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+  header {
+    background-image: url(../Image/fotoBack.jpg);
+    box-shadow: 0 4px 6px rgba(0,0,0,.2);  
+  }
+  nav {
+    max-width: 660px;
+    margin: 0 auto;
+    padding: 20px 0;
+    overflow: hidden;
+  }
+  .logo-box>a >img{
+      height: 80px;
+      width: 140px;
+      border-radius: 10px ;
+  }
+  .logo-box {
+    float: left;
+    margin-left: 40px;
+  }
+  .logo {
+    margin: 0;
+    height: 70px;
+    text-align: center;
+  }
+  ul {
+    margin: 0;
+    margin-right: 190px;
+    padding-left: 0;
+    list-style: none;
+    float: right;
+    height: 70px;
+    line-height: 70px;
+    text-align:center;
+  }
+  a {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+  }
+  li a {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+  li {
+    display: inline-block;
+    margin-left: 25px;
+    transition: .5s linear;
+  }
+  li a:after {
+    content: "";
+    width: 0;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    background: #040257;
+    transition: all 0.5s linear;  
+  }
+  li a:hover:after{
+    width: 100%;
+  }
+  @media screen and (max-width:574px) {
+    .logo-box {
+      float: none;
+      margin: 0 auto;
+    }
+    ul {
+      float: none;
+      margin: 0 25px;
+      }
+   li:first-of-type {margin-left:0}
+  }
+  
+  @media screen and (max-width:493px) {
+  nav {
+    overflow: visible
+  }
+  ul {
+    height: auto;
+    margin: 25px 25px 0 25px;
+    line-height: 50px;
+  }
+  li {
+    display: block;
+    margin: 0;
+  }
+  li:hover {
+    background: rgba(0,0,0,.1)
+  }
+  li a:after {
+    content: none;
+  }
+  }
+
+  .block-left{width:20%;height:1500px;overflow:auto;float:left; }
+  .block-right{width:80%;height:1500px;overflow:auto;}
+
+img{
+  width: 200px;
+  height: 270px;
+}
+p{
+  width: 70%;
+  padding-left: 10px;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+}
+.orapub1>img{
+  float: left;
+  width: 250px;
+  height: 200px;
+  margin: 5px;
+}
+.orapub1>p{
+  float: left;
+  width: 70%;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+
+}
+
+.orapub2>img{
+  float: left;
+  width: 250px;
+  height: 200px;
+  margin: 5px;
+}
+.orapub2>p{
+  float: left;
+  width: 70%;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+}
+.orapub3>p{
+  float: left;
+  width: 70%;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+}
+.orapub3>img{
+  float: left;
+  width: 250px;
+  height: 150px;
+  margin: 5px;
+}
+.orapub4>p{
+  float: left;
+  width: 70%;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+}
+.orapub4>img{
+  float: left;
+  width: 250px;
+  height: 200px;
+  margin: 5px;
+}
+.jos{
+  width: 100%;
+  border: 1px solid black;
+  position: absolute;
+  top: 1580px;
+  left:0px;
+  background-image: url(../Image/fotoBack.jpg);
+}
+.jos>p{
+  font-size: 15px;
+  text-align: center;
+}
+.block-left> .foto >p{
+  text-align: center;
+  font-size: 15px;
+  margin-left: 25px;
+  
+}
+.block-left> .foto >img{
+  margin-left: 15px;
+  width: 280px;
+  height: 360px;
+}
+.block-left> .cat >a >img{
+  height: 170px;
+  width: 250px;
+  margin-left: 15px;
+}
+.block-left> .cat >h3{
+  color: #ffffff;
+  margin-left: 15px;
+}
+.block-left> .despre >h3{
+  color: #ffffff;
+  margin-left: 15px;
+}
+.block-left> .despre >a{
+  color: #ffffff;
+  margin-left: 40px;
+}
+.block-right>.info>h2{
+  color: #ffffff;
+  font-size: 35px;
+  text-align: center;
+}
+.block-right>.info>p{
+  position: absolute;
+  float: left;
+  font-size: 20px;
+}
+.block-right>.date>h3{
+font-size: 20px;
+color: #ffffff;
+margin-left: 25px;
+}
+.block-right>.date>img{
+ 
+  width: 550px;
+  height: 650px;
+  margin-left: 20px;
+}
+.block-right>.reg>p{
+  position: absolute;
+  float: left;
+  font-size: 20px;
+}
+.block-right>.reg>h3{
+  font-size: 35px;
+  color:white;
+  margin-left: 10px;
+}
+.block-right>.orga>h3{
+  font-size: 35px;
+  color:white;
+  margin-left: 20px;
+}
+.block-right>.orga>img{
+  width: 1000px;
+  height: 950px;
+  margin-left: 20px;
+}
+.block-right>.cercu>h3{
+  font-size: 35px;
+  color:white;
+  margin-left: 20px;
+}
+.block-right>.cercu>img{
+  width: 1000px;
+  height: 950px;
+  margin-left: 20px;
+}
+.block-right>.med>a{
+  color: #ffffff;
+ margin-left: 20px;
+ font-size: 30px;
+}
+.block-right>.fot>.scale>img{
+  float: left;
+  height: 300px;
+  width: 300px;
+  margin-left: 9px;
+  margin-bottom: 15px;
+}
+.block-right>.vid>iframe{
+  float: left;
+  width: 400px;
+  height: 400px;
+  margin-left: 15px;
+}
+.block-right>.vid2>iframe{
+  float: left;
+  width: 500px;
+  height: 400px;
+  margin-left: 85px;
+  margin-top: 15px;
+}
+.block-right>.vid3>iframe{
+  float: left;
+  width: 400px;
+  height: 400px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.block-right>.con>h3{
+  color: #ffffff;
+  font-size: 35px;
+  margin-left: 10px;
+}
+.block-right>.con>img{
+  float: left;
+  height: 300px;
+  width: 500px;
+ border-radius: 10px;
+
+}
